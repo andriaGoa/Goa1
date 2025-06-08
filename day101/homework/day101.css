@@ -1,0 +1,51 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #fdfdfd;
+      margin-top: 50px;
+    }
+
+    h1 {
+      font-size: 28px;
+    }
+
+    input {
+      width: 300px;
+      padding: 10px;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 15px;
+      font-size: 14px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .add-btn {
+      background-color: orange;
+      color: white;
+    }
+
+    .todo-item {
+      background-color: #e6e6e6;
+      width: 400px;
+      margin: 10px auto;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 5px;
+    }
+
+    .delete-btn {
+      background-color: red;
+      color: white;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+    }
