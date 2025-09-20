@@ -1,0 +1,15 @@
+html{font-family: Inter, system-ui, sans-serif;color:#0f172a}
+body{margin:0;background:linear-gradient(180deg,#f8fafc,#eef2ff);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.card{width:100%;max-width:820px;background:white;border-radius:12px;box-shadow:0 10px 30px rgba(2,6,23,0.08);padding:22px}
+header{display:flex;gap:12px;align-items:center}
+input{flex:1;padding:10px 12px;border-radius:8px;border:1px solid #e6eef8;font-size:16px}
+button{padding:10px 14px;border-radius:8px;border:0;background:#0369a1;color:white;font-weight:600;cursor:pointer}
+.meta{margin-top:14px;color:#475569;font-size:14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+.box{background:#fbfdff;border:1px solid #eef2ff;padding:14px;border-radius:10px}
+.forecast{display:flex;gap:10px;overflow:auto}
+.day{min-width:110px;padding:10px 12px;border-radius:8px;background:linear-gradient(180deg,#ffffff,#f8fafc);box-shadow:0 4px 10px rgba(2,6,23,0.04)}
+.center{text-align:center}
+footer{margin-top:18px;font-size:13px;color:#68738a}
+.error{color:#b91c1c}
+@media (max-width:640px){.grid{grid-template-columns:1fr}}

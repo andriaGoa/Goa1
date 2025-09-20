@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ka">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Document</title>
+<link rel="stylesheet" href="day129.css">
+</head>
+<body>
+<div class="card">
+<header>
+<input id="query" value="Tbilisi">
+<button id="searchBtn"><search></search></button>
+</header>
+<div class="meta"></div>
+<div id="output" class="grid" aria-live="polite">
+<div class="box" id="currentBox">
+<strong>status</strong>
+<div id="status" class="meta"></div>
+</div>
+<div class="box" id="dailyBox">
+<strong>min/max</strong>
+<div id="daily" class="meta">---</div>
+</div>
+</div>
+<div style="margin-top:14px" id="forecastWrap">
+<div class="box">
+<strong></strong>
+<div id="hourly" class="forecast" style="margin-top:10px"></div>
+</div>
+</div>
+</div>
+<script src="day129.js"></script>
+</html>
